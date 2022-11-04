@@ -7,7 +7,7 @@ namespace LeetCodeProblems
 {
     class IntersectionOf2Arrays
     {
-        public int[] Intersect(int[] nums1, int[] nums2)
+        public static int[] Intersect(int[] nums1, int[] nums2)
         {
             List<int> r = new List<int>();
             List<int> l = Enumerable.ToList(nums1);
