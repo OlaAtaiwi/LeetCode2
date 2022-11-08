@@ -9,7 +9,7 @@ namespace LeetCodeProblems
         public static bool WordsPattern(string pattern, string s)
         {
 
-            string[] words = s.Split(' ');
+           var words = s.Split(' ');
             if (words.Length != pattern.Length)
                 return false;
             Dictionary<char, string> Dict = new Dictionary<char, string>();
